@@ -1,6 +1,6 @@
-import { setError } from "@/application/alert/error";
-import { setSuccess } from "@/application/alert/success";
-import { setInfo } from "@/application/alert/info";
+import { setError } from "@/store/alert/error";
+import { setSuccess } from "@/store/alert/success";
+import { setInfo } from "@/store/alert/info";
 import useSystemFunctions from "./useSystemFunctions";
 
 const useNotification = () => {

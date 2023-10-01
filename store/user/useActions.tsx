@@ -1,5 +1,5 @@
 "use client";
-import { CallbackProps } from "@/application/store";
+import { CallbackProps } from "@/store";
 import useSystemFunctions from "@/hooks/useSystemFunctions";
 
 import { setUser, setLoading } from ".";
